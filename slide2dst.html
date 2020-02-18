@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Slide2</title>
+  <style>
+    .wrapper{
+      display:grid;
+      /* grid-template-columns:1fr 1fr 1fr;*/
+      grid-template-columns:2fr 1fr;
+      grid-gap:1em;
+      /* grid-auto-rows:100px; */
+      grid-auto-rows: minmax(1fr, auto);
+      justify-items: end;
+    }
+
+    .nested{
+      height: 1fr;
+      display:grid;
+      grid-template-columns:repeat(12, 2fr);
+      grid-auto-rows: 100px;
+      grid-gap:10px;
+      justify-items: center;
+      justify-content: center;
+      
+    }
+
+    
+
+    .nested > div{
+      border:#333 1px solid;
+      padding:1em;
+      border-radius: 20px;
+      background: rgb(211, 150, 10);
+      height: 1fr;
+      width: 1fr;
+    }
+
+    .nested1{
+      display:grid;
+      grid-template-columns:180px;
+      grid-auto-rows: 10px;
+      grid-gap:1em;
+      border:#333 1px solid;
+      padding:1em;
+      border-radius: 25px;
+      justify-items: center;
+      align-content: center;
+      background: rgb(211, 150, 10);
+    }
+
+
+    .baris1{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 200px;
+      /*
+      grid-column-gap:1em;
+      grid-row-gap:1em;
+      */
+      grid-gap:1em;
+    }
+
+    .baris1 > div{
+      
+        height: 130px;
+        width: 100px;
+        background: rgb(18, 233, 125);
+      padding:1em;
+      border-radius: 25px;
+     justify-items: start;
+     text-align: center;
+      
+
+    }
+    .baris1 > div:nth-child(odd){
+      
+      height: 130px;
+        width: 600px;
+        background:rgb(65, 116, 235);
+        padding:1em;
+        border-radius: 25px;
+      justify-items: start;
+     text-align: left;
+     grid-gap:1em;
+    }
+
+   
+    .wrapper2{
+      display:grid;
+      /* grid-template-columns:1fr 1fr 1fr;*/
+      grid-template-columns:repeat(3, 1fr);
+      grid-gap:1em;
+      /* grid-auto-rows:100px; */
+      grid-auto-rows: minmax(300px, auto);
+    }
+
+
+    .wrapper2 > div{
+      background:rgb(65, 116, 235);
+      padding:1em;
+      justify-items: stretch;
+     text-align: left;
+    }
+    .wrapper2 > div:nth-child(odd){
+      background:rgb(65, 116, 235);
+    }
+
+    
+    
+   
+  </style>
+</head>
+<body>
+  <div class="baris1">
+      <div>Customer &nbsp :
+          <br>  
+             Part Name :
+             <br>
+             Part No. &nbsp &nbsp :
+             <br>
+             Tool &nbsp &nbsp &nbsp &nbsp &nbsp :
+             <br>
+             Resin &nbsp &nbsp &nbsp &nbsp :
+        </div>
+      <div><h1>000</h1></div>
+  </div>
+  <div class="wrapper">
+   
+    <div class="nested1">
+      <H1>01</H1>
+      <h1>H470T</h1>
+    </div>
+    <div class="nested">
+     
+      <div1><h2>08.00</h2></div1>
+      <div1><h2>09.00</h2></div1>
+      <div1><h2>10.00</h2></div1>
+      <div1><h2>11.00</h2></div1>
+      <div1><h2>12.00</h2></div1>
+      <div1><h2>13.00</h2></div1>
+      <div1><h2>14.00</h2></div1>
+      <div1><h2>15.00</h2></div1>
+      <div1><h2>16.00</h2></div1>
+      <div1><h2>17.00</h2></div1>
+      <div1><h2>18.00</h2></div1>
+      <div1><h2>19.00</h2></div1>
+        
+      <div><h2>000</h2></div>
+ 
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+     
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+     
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+     
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+     
+      <div><h2>000</h2></div>
+      
+      <div><h2>000</h2></div>
+
+      <div1><h2>20.00</h2></div1>
+      <div1><h2>21.00</h2></div1>
+      <div1><h2>22.00</h2></div1>
+      <div1><h2>23.00</h2></div1>
+      <div1><h2>00.00</h2></div1>
+      <div1><h2>01.00</h2></div1>
+      <div1><h2>02.00</h2></div1>
+      <div1><h2>03.00</h2></div1>
+      <div1><h2>04.00</h2></div1>
+      <div1><h2>05.00</h2></div1>
+      <div1><h2>06.00</h2></div1>
+      <div1><h2>07.00</h2></div1>
+  
+  </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="wrapper2">
+    <div><h4>Catatan :</h4></div>
+    <div><h4>Catatan :</h4></div>
+    <div><h4>Catatan :</h4></div>
+  </div>
+</body>
+</html>
